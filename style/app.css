@@ -16,7 +16,7 @@ body{
 }
 
 .section__box{
-    max-width: 400px;
+    width: 400px;
     height: 500px;
     background-color: rgba(255, 255, 255, 0.13);
     border: rgba(255, 255, 255, 0.26) solid 2px;
@@ -97,7 +97,10 @@ body{
 }
 
 .forget{
-
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .sign__password{
