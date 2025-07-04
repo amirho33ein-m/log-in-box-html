@@ -1,0 +1,69 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0px;
+    font-size: 16px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #079ba9, #00ae8e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__box{
+    max-width: 400px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border: rgba(255, 255, 255, 0.26) solid 2px;
+    border-radius: 10px;
+    padding: 30px 36px;
+}
+
+.container__form{
+
+}
+
+.form__box{
+
+}
+
+.icon__box{
+
+}
+
+.icon{
+
+}
+
+.incoming{
+
+}
+
+.subject{
+
+}
+
+.box__income{
+
+}
+
+.botton__box{
+
+}
+
+.forget{
+
+}
+
+.sign__password{
+
+}
+
+.sign__password{
+
+}
