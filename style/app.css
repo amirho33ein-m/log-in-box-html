@@ -22,6 +22,7 @@ body{
     border: rgba(255, 255, 255, 0.26) solid 2px;
     border-radius: 10px;
     padding: 30px 36px;
+    margin: 50px;
 }
 
 .container__form{
@@ -81,7 +82,18 @@ body{
 }
 
 .botton__box{
+    height: 50px;
+    background-color: #f1f1f1;
+    margin-top: 35px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: all 200ms ease 100ms;
+}
 
+.botton__box:hover{
+    background-color: #e6e6e6;
+    box-shadow: #000000 0 0 4px;
 }
 
 .forget{
