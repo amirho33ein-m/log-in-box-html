@@ -15,16 +15,42 @@ body{
     align-items: center;
 }
 
+main{
+    width: 500px;
+    height: 600px;
+    position: relative;
+}
+
 .section__box{
     width: 400px;
     height: 500px;
-    background-color: rgba(255, 255, 255, 0.9);
     box-shadow: #353535 0 0 8px;
     border: rgba(255, 255, 255, 1) solid 2px;
     border-radius: 10px;
     padding: 30px 36px;
     margin: 50px;
 }
+
+
+.circle{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: #00ACC1;
+}
+
+.circle__1{
+    top: -50px;
+    left: -50px;
+}
+
+.circle__2{
+    bottom: -60px;
+    right: -100px;
+    z-index: -1;
+}
+
 
 .container__form{
 
