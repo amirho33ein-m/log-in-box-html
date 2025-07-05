@@ -130,3 +130,81 @@ body{
     transform: translateX(0);
     opacity: 1;
 }
+
+@media screen and (min-width:1200px) {
+    body{
+        background: url(../picture/arnaud-girault-IjEtFjxXweE-unsplash.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .section__box{
+        background-color: rgba(255, 255, 255, 0.13);
+        backdrop-filter: blur(5px);
+    }
+}
+
+@media screen and (max-width:1200px) {
+    body{
+        background: url(../picture/venti-views-XvdRyhsqlyY-unsplash.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .section__box{
+        width: 380px;
+        height: 480px;
+        background-color: rgba(255, 255, 255, 0.13);
+        backdrop-filter: blur(5px);
+    }
+
+}
+
+@media screen and (max-width:769px) {
+    body{
+        background: url(../picture/colin-watts-YAhAtPA3R5s-unsplash.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .section__box{
+        width: 380px;
+        height: 480px;
+        background-color: rgba(255, 255, 255, 0.13);
+        backdrop-filter: blur(5px);
+        padding: 35px 40px;
+
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    body{
+        background: url(../picture/arnaud-girault-IjEtFjxXweE-unsplash.jpg) no-repeat;
+        background-size: cover;
+
+    }
+
+    .section__box{
+        min-height: 450px;
+        background-color: rgba(255, 255, 255, 0.13);
+        backdrop-filter: blur(5px);
+        margin: 25px;
+        padding: 25px 26px;
+    }
+
+    .subject{
+        font-size: 14px;
+    }
+
+    .box__income{
+        font-size: 14px;
+        height: 35px;
+        color: #ffffff;
+        background-color: rgba(164, 164, 164, 0.01);
+        border: rgb(255, 255, 255) solid 1px;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    .sign__password{
+        font-size: 12px;
+    }
+}
